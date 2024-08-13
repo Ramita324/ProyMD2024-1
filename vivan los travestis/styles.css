@@ -1,0 +1,89 @@
+ /* Reset de márgenes y padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el body */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para el Navbar */
+header {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Estilo para el contenido principal */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para las tarjetas */
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card h2 {
+    margin: 10px 0;
+}
+
+/* Estilo para el footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.cajaDeTarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
